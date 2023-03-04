@@ -1,7 +1,8 @@
 package pl.edu.wszib.springwprowadzenie.model.zoo;
 
-import java.util.List;
+import org.springframework.stereotype.Component;
 
+import java.util.List;
 public interface Wybieg {
 
     List<Gromada> wybiegDla();
